@@ -6,8 +6,8 @@ try:
     extra = {
         'install_requires': ['argparse']
     }
-    if sys.version_info >= (3,):
-        extra['use_2to3'] = True
+    # if sys.version_info >= (3,):
+    #     extra['use_2to3'] = True
 except ImportError:
     from distutils.core import setup
     extra = {
